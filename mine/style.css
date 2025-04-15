@@ -1,0 +1,110 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient Background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header Styling */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #444;
+    text-align: left;
+}
+
+/* Input Field Styling */
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="password"]:focus {
+    border-color: #2575fc;
+    outline: none;
+}
+
+/* Password Container Styling */
+.password-container {
+    position: relative;
+}
+
+/* Eye Icon Styling */
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px; /* Adjust size of the eye icon */
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.eye-icon:hover {
+    color: #2575fc; /* Change color when hovered */
+}
+
+/* Submit Button Styling */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2575fc;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6a11cb;
+}
+
+/* Text Link Styling */
+p {
+    font-size: 14px;
+    color: #444;
+}
+
+p a {
+    text-decoration: none;
+    color: #2575fc;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
